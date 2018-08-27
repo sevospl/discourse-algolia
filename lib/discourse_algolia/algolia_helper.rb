@@ -186,9 +186,9 @@ module DiscourseAlgolia
       algolia_index(index_name).add_objects(records)
     end
 
-    def self.algolia_index(index_name)
+   def self.algolia_index(index_name)
       puts "The SiteSetting.algolia_application_id is #{SiteSetting.algolia_application_id}."
-      puts "The SiteSetting.algolia_admin_api_key is #{SiteSetting.algolia_admin_api_key)}."
+      puts "The SiteSetting.algolia_admin_api_key is #{SiteSetting.algolia_admin_api_key}."
       Algolia.init(
         application_id: SiteSetting.algolia_application_id,
         api_key: SiteSetting.algolia_admin_api_key)
