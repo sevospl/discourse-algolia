@@ -42,7 +42,7 @@ export default {
             }, [
               h('input.aa-input#search-box', {
                 name: "q",
-                placeholder: "Search the forum...",
+                placeholder: "Może poszperaj...",
                 autocomplete: "off"
               })
             ])
