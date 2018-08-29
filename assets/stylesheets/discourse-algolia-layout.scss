@@ -6,25 +6,22 @@
   }
   .right-container {
     width: $aa-dropdown-right-panel-width;
-    background-color: #000;
-    color: #000;
-    
   }
   .left-container {
     width: $aa-dropdown-left-panel-width;
-    background-color: #000;
-    color: #000;
   }
 }
 
 .aa-dropdown-menu {
   border: 1px solid $aa-border-color;
   .left-container {
-    background-color: $aa-background-color;
+    background-color: #3b3b3b;
+    color: #FFF;
   }
   .right-container {
     border-left: 1px solid $aa-border-color;
-    background-color: $aa-panel-background-color;
+    background-color: #333;
+    color: #FFF;
   }
 }
 
