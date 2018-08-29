@@ -85,7 +85,7 @@ export default {
         name: 'posts',
         displayKey: 'posts',
         templates: {
-          empty: `<div class="aa-empty">No matching posts.</div>`,
+          empty: `<div class="aa-empty">Nie znaleziono żadnych wyników wyszukiwania dla podanego hasła.</div>`,
           suggestion: function(hit) {
             let tags = "";
             let baseTags = hit.topic.tags;
