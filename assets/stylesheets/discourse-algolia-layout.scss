@@ -5,7 +5,7 @@
     vertical-align: top;
   }
   .right-container {
-    width: $aa-dropdown-right-panel-width;
+    width: 205px;
   }
   .left-container {
     width: $aa-dropdown-left-panel-width;
@@ -15,13 +15,11 @@
 .aa-dropdown-menu {
   border: 1px solid $aa-border-color;
   .left-container {
-    background-color: #3b3b3b;
-    color: #FFF;
+    background-color: $aa-background-color;
   }
   .right-container {
     border-left: 1px solid $aa-border-color;
-    background-color: #333;
-    color: #FFF;
+    background-color: $aa-panel-background-color;
   }
 }
 
